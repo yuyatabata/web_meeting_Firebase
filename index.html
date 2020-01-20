@@ -16,15 +16,14 @@
         <div id="their-videos"></div>
         <video id="my-video" muted="true" autoplay playsinline></video>
     </div>
+    
     <div class ="pure-u-1-3">
         <h2>Web会議</h2>
         <div class="select">
-            <label for="audioSource">Audio input source:</label>
-            <select id="audioSource"></select>
+            <label for="audioSource">Audio input source:</label><select id="audioSource"></select>
         </div>
         <div class="select">
-            <label for="videoSource">Video source: </label>
-            <select id="videoSource"></select>
+            <label for="videoSource">Video source: </label><select id="videoSource"></select>
         </div>
         <div id="step1">
             <p>Please click `allow` on the top of the screen so we can access your webcam and microphone for calls.</p>
@@ -34,7 +33,7 @@
             </div>
         </div>
 
-        <p>Your id: <span>...</span>...</p>
+        <p>Your id: <span id="my-id">...</span></p>
         <div id="step2">
             <h3>Make a call</h3>
             <form id="make-call" class="pure-form">
@@ -62,7 +61,11 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
 
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
+
 <script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/script2.js"></script>
 
 </body>
 
