@@ -1,11 +1,10 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 /* eslint-disable require-jsdoc */
 $(function() {
     // Peer object
     const peer = new Peer({
-      // key:   window.__SKYWAY_KEY__,
-      key: console.log(process.env.SKYWAY_API_Key),
+      // key: console.log(process.env.SKYWAY_API_Key),
       debug: 3,
     });
   

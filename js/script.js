@@ -1,7 +1,7 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 var firebaseConfig = {
-    apiKey: console.log(process.env.apiKey),
+    // apiKey: console.log(process.env.apiKey),
     authDomain: "chatapp-351cd.firebaseapp.com",
     databaseURL: "https://chatapp-351cd.firebaseio.com",
     projectId: "chatapp-351cd",
